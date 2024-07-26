@@ -1,4 +1,4 @@
-// TC : O(n), SC : O(n)
+// TC : O(n+m),, SC : O(1)
 
 string smallestWindow (string s, string p)
     {
