@@ -41,7 +41,7 @@ int ceilSearch(int arr[], int low, int high, int x)
 	or ceiling lies in arr[low...mid-1] */
 	else {
 		if (mid - 1 >= low && x > arr[mid - 1])
-			return mid;
+			return midPe;
 		else
 			return ceilSearch(arr, low, mid - 1, x);
 	}
